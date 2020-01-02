@@ -1,0 +1,25 @@
+.time {
+  display: flex;
+  font-size: 28px;
+}
+.time p {
+  font-size: 18px;
+  color: orange;
+}
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+.buttons button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid orange;
+  background-color: white;
+}
